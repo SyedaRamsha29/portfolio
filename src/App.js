@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+import About from "./components/about/about.js";
+import Skill from "./components/skills/Skill.js";
+import Projects from "./components/Projects/Projects.js";
+import Contact from "./components/Contact/Contact.js";
 
+const observer = new IntersectionObserver((entries) => {
+  console.log("Observer callback:", entries);
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    } else {
+      entry.target.classList.remove("show");
+    }
+  });
+});
+
+const hiddenElements = document.querySelectorAll(".hidden");
+hiddenElements.forEach((el) => observer.observe(el));
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <About />
+      <Skill />
+      <Projects />
+      <Contact />
     </div>
   );
 }

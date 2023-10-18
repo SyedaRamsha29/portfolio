@@ -1,0 +1,151 @@
+.typewriter span {
+  color: #3f2e3e;
+  padding-top: 15px;
+}
+.sec1-big {
+  background-image: linear-gradient(
+    to right bottom,
+    #efe1d1,
+    #e5cec0,
+    #dabbb2,
+    #cea9a7,
+    #bf979e,
+    #ae8894,
+    #9d7a89,
+    #8b6c7f,
+    #775c6e,
+    #644c5e,
+    #513d4e,
+    #3f2e3e
+  );
+  min-height: 100vh;
+  padding-top: 10px;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+  /* height: 100%; */
+}
+
+.right {
+  width: 50%;
+}
+
+.left {
+  width: 50%;
+  height: 600px;
+  padding: 30px;
+  padding-top: 100px;
+  margin-top: 70px;
+}
+
+.sec1 {
+  min-height: 100vh;
+  margin-bottom: -5px;
+}
+
+.sec1-text {
+  margin: 0 0.5rem;
+  position: relative;
+  top: 20%;
+  left: 8%;
+  line-height: 38px;
+  /* font-size: 2vw; */
+}
+.auto-type {
+  color: #3f2e3e;
+  padding-top: 15px;
+}
+.circular {
+  margin: 0 0.5rem;
+  position: relative;
+}
+
+.sec1-btn {
+  width: 130px;
+  padding: 2px;
+  background-color: #3f2e3e;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: large;
+}
+.sec1-btn span {
+  margin: 3px;
+}
+
+.sec1-btn:hover {
+  background-color: transparent;
+  border: 2px solid #3f2e3e;
+  color: #3f2e3e;
+  box-shadow: none;
+}
+
+/* .circular {
+  width: 80%;
+  background-color: #3f2e3e;
+  border-radius: 50%;
+  margin: 10%;
+  overflow: hidden;
+} */
+.circular img {
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .sec1-text {
+    font-size: 4vw;
+    line-height: 1.5;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    padding-top: 50px;
+    margin-top: 0;
+    margin-right: 30px;
+    text-align: center;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right {
+    margin-top: 72px;
+    width: 100%;
+    order: 1;
+  }
+
+  .sec1-btn {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .circular img {
+    border-radius: 50%;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .sec1-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
