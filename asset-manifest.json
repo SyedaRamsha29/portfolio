@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.756ccabf.css",
-    "main.js": "/portfolio/static/js/main.2d6ce487.js",
+    "main.css": "/portfolio/static/css/main.4b96810d.css",
+    "main.js": "/portfolio/static/js/main.4deb02dc.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/ram6edit.png": "/portfolio/static/media/ram6edit.abe28c7daa2037f12f77.png",
     "static/media/todolistnew.PNG": "/portfolio/static/media/todolistnew.68a9e4f0b9a999873878.PNG",
@@ -9,12 +9,12 @@
     "static/media/Syeda_Ramsha_resume.pdf": "/portfolio/static/media/Syeda_Ramsha_resume.c3c76fb51839c60c0497.pdf",
     "static/media/calculator.PNG": "/portfolio/static/media/calculator.32b0df522c3ca8b0e1b8.PNG",
     "index.html": "/portfolio/index.html",
-    "main.756ccabf.css.map": "/portfolio/static/css/main.756ccabf.css.map",
-    "main.2d6ce487.js.map": "/portfolio/static/js/main.2d6ce487.js.map",
+    "main.4b96810d.css.map": "/portfolio/static/css/main.4b96810d.css.map",
+    "main.4deb02dc.js.map": "/portfolio/static/js/main.4deb02dc.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.756ccabf.css",
-    "static/js/main.2d6ce487.js"
+    "static/css/main.4b96810d.css",
+    "static/js/main.4deb02dc.js"
   ]
 }
